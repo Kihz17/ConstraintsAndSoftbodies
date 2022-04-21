@@ -1,0 +1,472 @@
+Scene: Untitled
+Lights:
+  - Index: 0
+    Position: [0, 0, 0, 1]
+    Diffuse: [0.930000007, 0.74000001, 1.25, 1]
+    Specular: [1, 1, 1, 1]
+    Attenuation: [0, 0.100000001, 0.00999999978, 100000]
+    Direction: [0.100000001, 0.99000001, 0, 0]
+    LightType: DIRECTIONAL
+    OuterAngle: 0
+    InnerAngle: 0
+    State: true
+Meshes:
+  - UUID: 12725518506137016263
+    Path: assets\models\box.obj
+    Position: [-4.37113897e-07, 0, -10]
+    Orientation: [0, 0, 0]
+    Scale: [100, 1, 100]
+    AlphaTransparency: 1
+    Textures:
+      - TextureType: Diffuse
+        Path: assets\textures\red.jpg
+        Ratio: 8
+        TexCoordScale: 100
+        FilterType: Linear
+        WrapType: Repeat
+        GenMipMaps: true
+    Collider:
+      ColliderType: Mesh
+      Bounciness: 0
+  - UUID: 10004538624699045722
+    Path: assets\models\box.obj
+    Position: [-278.60199, 49.6329994, -270.244995]
+    Orientation: [0, 1.60000002, 0]
+    Scale: [6.40999985, 4.23000002, 0.800000012]
+    AlphaTransparency: 1
+    Textures:
+      - TextureType: Diffuse
+        Path: assets\textures\wall.jpg
+        Ratio: 4.51000023
+        TexCoordScale: 0.550000012
+        FilterType: Linear
+        WrapType: Clamp
+        GenMipMaps: true
+    Collider:
+      ColliderType: Mesh
+      Bounciness: 0.100000001
+  - UUID: 2235619928215884960
+    Path: assets\models\box.obj
+    Position: [-90.2630005, 20.8899994, -38.0880013]
+    Orientation: [0, 0, 0]
+    Scale: [1, 1, 1]
+    AlphaTransparency: 1
+    Textures:
+      - TextureType: Diffuse
+        Path: assets\textures\woodenBox.png
+        Ratio: 1.30000019
+        TexCoordScale: 1
+        FilterType: Linear
+        WrapType: Clamp
+        GenMipMaps: true
+    Collider:
+      ColliderType: Mesh
+      Bounciness: 0.699999988
+  - UUID: 9280468819878866026
+    Path: assets\models\box.obj
+    Position: [-92.6021652, 48.6329994, -200.244766]
+    Orientation: [0, 0, 0]
+    Scale: [15, 4.23000002, 0.800000012]
+    AlphaTransparency: 1
+    Textures:
+      - TextureType: Diffuse
+        Path: assets\textures\wall.jpg
+        Ratio: 4.51000023
+        TexCoordScale: 1
+        FilterType: Linear
+        WrapType: Clamp
+        GenMipMaps: true
+    Collider:
+      ColliderType: Mesh
+      Bounciness: 0.100000001
+  - UUID: 14905369932403962234
+    Path: assets\models\box.obj
+    Position: [-190.009003, 9.57199955, 34.7700005]
+    Orientation: [0, 0, 0]
+    Scale: [5, 0.5, 5]
+    AlphaTransparency: 1
+    Textures:
+      - TextureType: Diffuse
+        Path: assets\textures\blue_gel.jpg
+        Ratio: 1.52000046
+        TexCoordScale: 11.75
+        FilterType: Linear
+        WrapType: Repeat
+        GenMipMaps: true
+    Collider:
+      ColliderType: Mesh
+      Bounciness: 2.5
+  - UUID: 16933307745827354288
+    Path: assets\models\box.obj
+    Position: [8.39799976, 49.6329994, -424.244995]
+    Orientation: [0, 0, 0]
+    Scale: [10.1199999, 4.23000002, 0.800000012]
+    AlphaTransparency: 1
+    Textures:
+      - TextureType: Diffuse
+        Path: assets\textures\wall.jpg
+        Ratio: 4.51000023
+        TexCoordScale: 0.550000012
+        FilterType: Linear
+        WrapType: Clamp
+        GenMipMaps: true
+    Collider:
+      ColliderType: Mesh
+      Bounciness: 0.100000001
+  - UUID: 15111996869571871353
+    Path: assets\models\box.obj
+    Position: [-93.6019974, 48.6329994, -265.244995]
+    Orientation: [0, 0, 0]
+    Scale: [15, 4.23000002, 0.800000012]
+    AlphaTransparency: 1
+    Textures:
+      - TextureType: Diffuse
+        Path: assets\textures\wall.jpg
+        Ratio: 4.51000023
+        TexCoordScale: 0.550000012
+        FilterType: Linear
+        WrapType: Clamp
+        GenMipMaps: true
+    Collider:
+      ColliderType: Mesh
+      Bounciness: 0.100000001
+  - UUID: 3625889900116061565
+    Path: assets\models\box.obj
+    Position: [106.398003, 49.6329994, -265.244995]
+    Orientation: [0, 0, 0]
+    Scale: [5, 4.23000002, 0.800000012]
+    AlphaTransparency: 1
+    Textures:
+      - TextureType: Diffuse
+        Path: assets\textures\wall.jpg
+        Ratio: 4.51000023
+        TexCoordScale: 0.550000012
+        FilterType: Linear
+        WrapType: Clamp
+        GenMipMaps: true
+    Collider:
+      ColliderType: Mesh
+      Bounciness: 0.100000001
+  - UUID: 16254860044957072089
+    Path: assets\models\box.obj
+    Position: [78.3980026, 49.6329994, -200.244995]
+    Orientation: [0, 0, 0]
+    Scale: [2.1400001, 4.23000002, 0.800000012]
+    AlphaTransparency: 1
+    Textures:
+      - TextureType: Diffuse
+        Path: assets\textures\wall.jpg
+        Ratio: 4.51000023
+        TexCoordScale: 0.550000012
+        FilterType: Linear
+        WrapType: Clamp
+        GenMipMaps: true
+    Collider:
+      ColliderType: Mesh
+      Bounciness: 0.100000001
+  - UUID: 11358899337090985173
+    Path: assets\models\box.obj
+    Position: [147.397995, 49.6329994, -210.244995]
+    Orientation: [0, -1.60000002, 0]
+    Scale: [5, 4.23000002, 0.800000012]
+    AlphaTransparency: 1
+    Textures:
+      - TextureType: Diffuse
+        Path: assets\textures\wall.jpg
+        Ratio: 4.51000023
+        TexCoordScale: 0.550000012
+        FilterType: Linear
+        WrapType: Clamp
+        GenMipMaps: true
+    Collider:
+      ColliderType: Mesh
+      Bounciness: 0.100000001
+  - UUID: 17091677971730681863
+    Path: assets\models\box.obj
+    Position: [-198.602005, 49.6329994, -469.244995]
+    Orientation: [0, 1.60000002, 0]
+    Scale: [15.1300001, 4.23000002, 0.800000012]
+    AlphaTransparency: 1
+    Textures:
+      - TextureType: Diffuse
+        Path: assets\textures\wall.jpg
+        Ratio: 4.51000023
+        TexCoordScale: 0.550000012
+        FilterType: Linear
+        WrapType: Clamp
+        GenMipMaps: true
+    Collider:
+      ColliderType: Mesh
+      Bounciness: 0.100000001
+  - UUID: 1607383094026602864
+    Path: assets\models\box.obj
+    Position: [-263.60199, 49.6329994, -200.244995]
+    Orientation: [0, 0, 0]
+    Scale: [2.1400001, 4.23000002, 0.800000012]
+    AlphaTransparency: 1
+    Textures:
+      - TextureType: Diffuse
+        Path: assets\textures\wall.jpg
+        Ratio: 4.51000023
+        TexCoordScale: 0.550000012
+        FilterType: Linear
+        WrapType: Clamp
+        GenMipMaps: true
+    Collider:
+      ColliderType: Mesh
+      Bounciness: 0.100000001
+  - UUID: 15198557723364800392
+    Path: assets\models\box.obj
+    Position: [-39.6020012, 49.6329994, -325.244995]
+    Orientation: [0, 0, 0]
+    Scale: [14.8400002, 4.23000002, 0.800000012]
+    AlphaTransparency: 1
+    Textures:
+      - TextureType: Diffuse
+        Path: assets\textures\wall.jpg
+        Ratio: 4.51000023
+        TexCoordScale: 0.550000012
+        FilterType: Linear
+        WrapType: Clamp
+        GenMipMaps: true
+    Collider:
+      ColliderType: Mesh
+      Bounciness: 0.100000001
+  - UUID: 7514189450534041297
+    Path: assets\models\box.obj
+    Position: [-251.602005, 49.6329994, -325.244995]
+    Orientation: [0, 0, 0]
+    Scale: [2.1400001, 4.23000002, 0.800000012]
+    AlphaTransparency: 1
+    Textures:
+      - TextureType: Diffuse
+        Path: assets\textures\wall.jpg
+        Ratio: 4.51000023
+        TexCoordScale: 0.550000012
+        FilterType: Linear
+        WrapType: Clamp
+        GenMipMaps: true
+    Collider:
+      ColliderType: Mesh
+      Bounciness: 0.100000001
+  - UUID: 9060054419215730968
+    Path: assets\models\box.obj
+    Position: [75.3980026, 49.6329994, -464.244995]
+    Orientation: [0, 0, 0]
+    Scale: [6.23999977, 4.23000002, 0.800000012]
+    AlphaTransparency: 1
+    Textures:
+      - TextureType: Diffuse
+        Path: assets\textures\wall.jpg
+        Ratio: 4.51000023
+        TexCoordScale: 0.550000012
+        FilterType: Linear
+        WrapType: Clamp
+        GenMipMaps: true
+    Collider:
+      ColliderType: Mesh
+      Bounciness: 0.100000001
+  - UUID: 9384934122755841437
+    Path: assets\models\box.obj
+    Position: [146.397995, 49.6329994, -373.244995]
+    Orientation: [0, 1.60000002, 0]
+    Scale: [10.1199999, 4.23000002, 0.800000012]
+    AlphaTransparency: 1
+    Textures:
+      - TextureType: Diffuse
+        Path: assets\textures\wall.jpg
+        Ratio: 4.51000023
+        TexCoordScale: 0.550000012
+        FilterType: Linear
+        WrapType: Clamp
+        GenMipMaps: true
+    Collider:
+      ColliderType: Mesh
+      Bounciness: 0.100000001
+  - UUID: 8575178878103563007
+    Path: assets\models\box.obj
+    Position: [-25.6019993, 49.6329994, -373.244995]
+    Orientation: [0, 0, 0]
+    Scale: [16.5599995, 4.23000002, 0.800000012]
+    AlphaTransparency: 1
+    Textures:
+      - TextureType: Diffuse
+        Path: assets\textures\wall.jpg
+        Ratio: 4.51000023
+        TexCoordScale: 0.550000012
+        FilterType: Linear
+        WrapType: Clamp
+        GenMipMaps: true
+    Collider:
+      ColliderType: Mesh
+      Bounciness: 0.100000001
+  - UUID: 3211940126050443635
+    Path: assets\models\box.obj
+    Position: [-50.6020012, 49.6329994, -489.244995]
+    Orientation: [0, 1.60000002, 0]
+    Scale: [5.76000023, 4.23000002, 0.800000012]
+    AlphaTransparency: 1
+    Textures:
+      - TextureType: Diffuse
+        Path: assets\textures\wall.jpg
+        Ratio: 4.51000023
+        TexCoordScale: 0.550000012
+        FilterType: Linear
+        WrapType: Clamp
+        GenMipMaps: true
+    Collider:
+      ColliderType: Mesh
+      Bounciness: 0.100000001
+  - UUID: 8779631439312895148
+    Path: assets\models\box.obj
+    Position: [-125.601997, 50.6329994, -515.244995]
+    Orientation: [0, 0, 0]
+    Scale: [6.69000006, 4.23000002, 0.800000012]
+    AlphaTransparency: 1
+    Textures:
+      - TextureType: Diffuse
+        Path: assets\textures\wall.jpg
+        Ratio: 4.51000023
+        TexCoordScale: 0.550000012
+        FilterType: Linear
+        WrapType: Clamp
+        GenMipMaps: true
+    Collider:
+      ColliderType: Mesh
+      Bounciness: 0.100000001
+  - UUID: 18197572452682847171
+    Path: assets\models\box.obj
+    Position: [4.39799976, 49.6329994, -479.244995]
+    Orientation: [0, 1.60000002, 0]
+    Scale: [2.1400001, 4.23000002, 0.800000012]
+    AlphaTransparency: 1
+    Textures:
+      - TextureType: Diffuse
+        Path: assets\textures\wall.jpg
+        Ratio: 4.51000023
+        TexCoordScale: 0.550000012
+        FilterType: Linear
+        WrapType: Clamp
+        GenMipMaps: true
+    Collider:
+      ColliderType: Mesh
+      Bounciness: 0.100000001
+  - UUID: 11584171535111716668
+    Path: assets\models\box.obj
+    Position: [17.3980007, 49.6329994, -508.244995]
+    Orientation: [0, 0, 0]
+    Scale: [2.1400001, 4.23000002, 0.800000012]
+    AlphaTransparency: 1
+    Textures:
+      - TextureType: Diffuse
+        Path: assets\textures\wall.jpg
+        Ratio: 4.51000023
+        TexCoordScale: 0.550000012
+        FilterType: Linear
+        WrapType: Clamp
+        GenMipMaps: true
+    Collider:
+      ColliderType: Mesh
+      Bounciness: 0.100000001
+  - UUID: 2239644829086357783
+    Path: assets\models\box.obj
+    Position: [45.3979988, 49.6329994, -523.244995]
+    Orientation: [0, 1.60000002, 0]
+    Scale: [2.1400001, 4.23000002, 0.800000012]
+    AlphaTransparency: 1
+    Textures:
+      - TextureType: Diffuse
+        Path: assets\textures\wall.jpg
+        Ratio: 4.51000023
+        TexCoordScale: 0.550000012
+        FilterType: Linear
+        WrapType: Clamp
+        GenMipMaps: true
+    Collider:
+      ColliderType: Mesh
+      Bounciness: 0.100000001
+  - UUID: 18173217817139459290
+    Path: assets\models\box.obj
+    Position: [-3.602, 49.6329994, -551.244995]
+    Orientation: [0, 0, 0]
+    Scale: [5.55000019, 4.23000002, 0.800000012]
+    AlphaTransparency: 1
+    Textures:
+      - TextureType: Diffuse
+        Path: assets\textures\wall.jpg
+        Ratio: 4.51000023
+        TexCoordScale: 0.550000012
+        FilterType: Linear
+        WrapType: Clamp
+        GenMipMaps: true
+    Collider:
+      ColliderType: Mesh
+      Bounciness: 0.100000001
+  - UUID: 11920577102828469128
+    Path: assets\models\box.obj
+    Position: [-242.602005, 49.6329994, -469.244995]
+    Orientation: [0, 1.60000002, 0]
+    Scale: [14.8400002, 4.23000002, 0.800000012]
+    AlphaTransparency: 1
+    Textures:
+      - TextureType: Diffuse
+        Path: assets\textures\wall.jpg
+        Ratio: 4.51000023
+        TexCoordScale: 0.550000012
+        FilterType: Linear
+        WrapType: Clamp
+        GenMipMaps: true
+    Collider:
+      ColliderType: Mesh
+      Bounciness: 0.100000001
+ConstraintEntities:
+  - WreckingBall:
+      AnchorPos: [140, 100, 20]
+      ForceDirection: [5000, 0, 0]
+      CableLength: 80
+      BallRadius: 12
+  - WreckingBall:
+      AnchorPos: [140, 100, 60]
+      ForceDirection: [-5000, 0, 0]
+      CableLength: 80
+      BallRadius: 12
+  - WreckingBall:
+      AnchorPos: [140, 100, 100]
+      ForceDirection: [5000, 0, 0]
+      CableLength: 80
+      BallRadius: 12
+  - WreckingBall:
+      AnchorPos: [140, 100, 140]
+      ForceDirection: [-5000, 0, 0]
+      CableLength: 80
+      BallRadius: 12
+  - WreckingBall:
+      AnchorPos: [140, 100, 180]
+      ForceDirection: [5000, 0, 0]
+      CableLength: 80
+      BallRadius: 12
+  - WreckingBall:
+      AnchorPos: [140, 100, 220]
+      ForceDirection: [-5000, 0, 0]
+      CableLength: 80
+      BallRadius: 12
+  - WreckingBall:
+      AnchorPos: [140, 100, 260]
+      ForceDirection: [5000, 0, 0]
+      CableLength: 80
+      BallRadius: 12
+  - FerrisWheel:
+      CenterPos: [-180, 140, 180]
+      ForceDirection: [0, 0, 0]
+      RodLength: 60
+      CartRadius: 8
+  - SoftBody:
+      Width: 7
+      Height: 7
+      Position: [0, 30, 30]
+      Orientation: [1, 0, 0]
+  - SoftBody:
+      Width: 15
+      Height: 7
+      Position: [-40, 30, -90]
+      Orientation: [0, 0, 1]
